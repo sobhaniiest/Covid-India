@@ -119,6 +119,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "covid-india"
+    }
+  },
+  "defaultProject": "covid-india",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
